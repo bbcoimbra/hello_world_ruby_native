@@ -10,7 +10,8 @@ begin
     gem.email = "bbcoimbra@gmail.com"
     gem.homepage = "http://github.com/bbcoimbra/hello_world"
     gem.authors = ["Bruno Coimbra"]
-    gem.add_development_dependency "thoughtbot-shoulda"
+    gem.add_development_dependency "jeweler"
+		gem.add_development_dependency "rake-compiler"
 		gem.extensions << "ext/hello_world_api/extconf.rb"
   end
 rescue LoadError
